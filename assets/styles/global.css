@@ -23,7 +23,7 @@
   --text-secondary: var(--gray-700);
   --text-tertiary: var(--gray-600);
   --bg-primary: #ffffff;
-  --bg-secondary: var(--gray-50);
+  --bg-secondary: white;
   --bg-tertiary: var(--gray-100);
 
   /* colors */
