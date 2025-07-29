@@ -1,5 +1,8 @@
 .katex {
-  font: normal 1.21em KaTeX_Main, Times New Roman, serif;
+  font:
+    normal 1.21em KaTeX_Main,
+    Times New Roman,
+    serif;
   line-height: 1.2;
   text-indent: 0;
   text-rendering: auto;
@@ -9,7 +12,7 @@
   -ms-high-contrast-adjust: none !important;
 }
 .katex .katex-version:after {
-  content: "0.12.0";
+  content: '0.12.0';
 }
 .katex .katex-mathml {
   position: absolute;
@@ -764,7 +767,7 @@
 }
 .katex .stretchy:after,
 .katex .stretchy:before {
-  content: "";
+  content: '';
 }
 .katex .hide-tail {
   width: 100%;
@@ -863,11 +866,12 @@
 
 .katex {
   /* reset to “normal text” size (1em), or pick whatever scaling you like */
-  font: normal 1em KaTeX_Main, Times New Roman, serif !important;
+  font:
+    normal 1em KaTeX_Main,
+    Times New Roman,
+    serif !important;
   /* or if you’d rather not override the whole shorthand:
   font-size: 1em !important;
   */
   line-height: 1.2; /* keep your existing value if you like */
 }
-
-/* If you only want block/display math smaller: */

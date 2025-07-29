@@ -1,9 +1,9 @@
 :root {
   /* Fonts */
-  --font-main: "NVIDIA Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-heavy: "NVIDIA Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-main: 'NVIDIA Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heavy: 'NVIDIA Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-primary: var(--font-heavy); /* Alias for consistency */
-  --font-mono: "Monaco", "Consolas", "Courier New", monospace;
+  --font-mono: 'Monaco', 'Consolas', 'Courier New', monospace;
 
   /* Colors - Research paper aesthetic */
   --black: #1a1a1a;
@@ -354,7 +354,9 @@ th {
   background-color: var(--white);
   color: var(--text-primary);
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .model-button.active {
