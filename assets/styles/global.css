@@ -344,3 +344,21 @@ th {
   border: 1px solid var(--silver);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
+
+.model-button {
+  padding: var(--spacing-xs) var(--spacing-sm); /* 4px 8px */
+  font-size: var(--font-size-sm); /* 14px */
+  font-weight: 600;
+  border: 1px solid var(--gray-700);
+  border-radius: var(--spacing-xs); /* 4px */
+  background-color: var(--white);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.model-button.active {
+  background-color: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
