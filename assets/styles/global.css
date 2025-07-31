@@ -364,3 +364,17 @@ th {
   color: var(--white);
   border-color: var(--primary);
 }
+
+.citation-link sup {
+  cursor: pointer;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a.citation-link,
+.back-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: none;
+}
